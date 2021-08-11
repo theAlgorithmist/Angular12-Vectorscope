@@ -1,0 +1,34 @@
+.card-container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 14px;
+  min-height: 500px;
+  border: 1px solid #efefef;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+}
+
+.card-container:hover
+{
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.preview-container
+{
+  width: 400px;
+  height: 300px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.canvas-container
+{
+  display: block;
+  border: 1px solid #ccc;
+  background-color: #333;
+}

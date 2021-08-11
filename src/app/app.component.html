@@ -1,0 +1,17 @@
+<div class="card-container">
+  <!-- Simple Img Previewer -->
+  <div class="preview-container" img-preview (imgError)="onImageError($event)" (imgLoaded)="onImageLoaded($event)"></div>
+
+  <!-- VectorScope -->
+  <div class="canvas-container">
+    <canvas
+      #vectorscope
+      width="400"
+      height="400"
+      id="vectorscopeSurface">
+    </canvas>
+  </div>
+</div>
+<div class="mt10">
+  <button mat-raised-button color="primary" (click)="onLoadImage()">Load Image</button>
+</div>
