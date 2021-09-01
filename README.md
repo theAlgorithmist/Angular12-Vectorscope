@@ -2,7 +2,7 @@
 
 Are you just starting out with Angular?  Would you like to integrate HTML Canvas into your applications without a third-party library?  If so, then this project was tailor-made just for you!  This demo illustrates how to create a primitive Vectorscope in Angular version 12.  The scope is accompanied by an image previewer that simulates the display of a single frame of video.  Both the image previewer and the Vectorscope are rendered into an HTML Canvas.  The canvas is manipulated directly instead of through a third-party library such as Pixi JS or Fabric JS.
 
-For more detail on the project, please read the Medium article [Creating a Vectorscope in Angular](https://docs.google.com/presentation/d/1XBeZdzERKB3DD8S6LNwAoLJ8q4oFJgUnLsQMPvzIzRk/edit?usp=sharing).
+For more detail on the project, please read the Medium article [Creating a Vectorscope in Angular](https://medium.com/ngconf/creating-a-vectorscope-in-angular-12-a581a169590a).
 
 Author:  Jim Armstrong - [The Algorithmist](https://www.linkedin.com/in/jimarmstrong/)
 
